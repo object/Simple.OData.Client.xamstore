@@ -1,0 +1,7 @@
+.DS_Store
+*.suo
+packages/
+obj/
+Debug/
+Release/
+x86/
