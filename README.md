@@ -1,4 +1,4 @@
-Simple.OData.Client.xamstore
+Simple.OData.Client Xamarin Store component
 ============================
 
-This is a Xamarin Store component for Simple.OData.Client
+This project contains files submitted to Xamarin Store for approval.
