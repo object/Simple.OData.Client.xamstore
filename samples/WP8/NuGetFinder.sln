@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetFinder.WinPhone", "NuGetFinder.WinPhone\NuGetFinder.WinPhone.csproj", "{AA654147-CBA5-4E2A-8222-2646CEC7DACD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetFinder.WP8", "NuGetFinder.WP8\NuGetFinder.WP8.csproj", "{AA654147-CBA5-4E2A-8222-2646CEC7DACD}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NuGetFinder", "NuGetFinder\NuGetFinder.shproj", "{8B706B46-7518-4ED7-8220-94CC5E92F480}"
 EndProject
