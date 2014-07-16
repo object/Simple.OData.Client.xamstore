@@ -2,7 +2,7 @@
 
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US"/>
-  <App xmlns="" ProductID="{c9251ff0-ec03-4c03-b620-8f97ece49755}" Title="NuGetFinder.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="NuGetFinder.WinPhone author" Description="Sample description" Publisher="NuGetFinder.WinPhone" PublisherID="{7fe86d44-0257-4aa1-bbbf-dc45921b0c47}">
+  <App xmlns="" ProductID="{c9251ff0-ec03-4c03-b620-8f97ece49755}" Title="NuGetFinder.WP8" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="NuGetFinder.WP8 author" Description="Sample description" Publisher="NuGetFinder.WinPhone" PublisherID="{7fe86d44-0257-4aa1-bbbf-dc45921b0c47}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING"/>
@@ -20,7 +20,7 @@
           <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title>NuGetFinder.WinPhone</Title>
+          <Title>NuGetFinder.WP8</Title>
           <BackContent></BackContent>
           <BackBackgroundImageURI></BackBackgroundImageURI>
           <BackTitle></BackTitle>

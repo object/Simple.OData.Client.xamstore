@@ -1,6 +1,6 @@
-﻿using NuGetFinder.WinPhone.Resources;
+﻿using NuGetFinder.WP8.Resources;
 
-namespace NuGetFinder.WinPhone
+namespace NuGetFinder.WP8
 {
     /// <summary>
     /// Provides access to string resources.

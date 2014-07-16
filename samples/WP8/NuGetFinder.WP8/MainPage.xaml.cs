@@ -11,7 +11,7 @@ using Microsoft.Phone.Shell;
 using Xamarin.Forms;
 
 
-namespace NuGetFinder.WinPhone
+namespace NuGetFinder.WP8
 {
     public partial class MainPage : PhoneApplicationPage
     {

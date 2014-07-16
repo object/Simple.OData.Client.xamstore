@@ -6,9 +6,9 @@ using System.Windows.Markup;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using NuGetFinder.WinPhone.Resources;
+using NuGetFinder.WP8.Resources;
 
-namespace NuGetFinder.WinPhone
+namespace NuGetFinder.WP8
 {
     public partial class App : Application
     {
