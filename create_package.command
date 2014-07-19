@@ -14,6 +14,6 @@ mono .xpkg/xamarin-component.exe create-manually Simple.OData.Client-3.0.xam \
     --library="android":"lib/Android/Simple.OData.Client.Dynamic.dll" \
     --library="wp8":"lib/WP8/Simple.OData.Client.Core.dll" \
     --library="wp8":"lib/WP8/Simple.OData.Client.Dynamic.dll" \
-    --sample="iOS Sample. NuGet Finder.":"samples/iOS/NuGetFinder.sln" \
-    --sample="Android Sample. NuGet Finder.":"samples/Android/NuGetFinder.sln" \
-    --sample="Windows Phone Sample. NuGet Finder.":"samples/WP8/NuGetFinder.sln"
+    --sample="iOS Sample. NuGet Finder.":"samples/iOS/NuGetFinder.iOS.sln" \
+    --sample="Android Sample. NuGet Finder.":"samples/Android/NuGetFinder.Android.sln" \
+    --sample="Windows Phone Sample. NuGet Finder.":"samples/WP8/NuGetFinder.WP8.sln"
