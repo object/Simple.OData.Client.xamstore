@@ -1,5 +1,6 @@
 .DS_Store
 *.suo
+*.user
 packages/
 obj/
 Debug/

@@ -1,6 +1,6 @@
-mono .xpkg/xamarin-component.exe create-manually Simple.OData.Client-1.0.xam \
+mono .xpkg/xamarin-component.exe create-manually Simple.OData.Client-3.0.xam \
     --name="Simple OData Client" \
-    --summary="Cross-platform library to consume data from OData feeds." \
+    --summary="Cross-platform library to communicate with OData services." \
     --publisher="Vagif Abilov" \
     --website="https://github.com/object/Simple.OData.Client" \
     --details="Details.md" \
@@ -8,10 +8,12 @@ mono .xpkg/xamarin-component.exe create-manually Simple.OData.Client-1.0.xam \
     --getting-started="GettingStarted.md" \
     --icon="icons/Simple.OData.Client_128x128.png" \
     --icon="icons/Simple.OData.Client_512x512.png" \
-    --library="ios":"bin/Simple.OData.Client.Core.dll" \
-    --library="android":"bin/Simple.OData.Client.Core.dll" \
-    --library="android":"bin/Simple.OData.Client.Dynamic.dll" \
-    --library="wp8":"bin/Simple.OData.Client.Core.dll" \
-    --library="wp8":"bin/Simple.OData.Client.Dynamic.dll" \
-    --sample="iOS Sample. iOS platform tests.":"samples/iOS/Simple.OData.Client.Tests.iOS.sln" \
-    --sample="Android Sample. Android platform tests.":"samples/Android/Simple.OData.Client.Tests.Android.sln"
+    --library="ios":"lib/iOS/Simple.OData.Client.Core.dll" \
+    --library="ios":"lib/iOS/Simple.OData.Client.Dynamic.dll" \
+    --library="android":"lib/Android/Simple.OData.Client.Core.dll" \
+    --library="android":"lib/Android/Simple.OData.Client.Dynamic.dll" \
+    --library="wp8":"lib/WP8/Simple.OData.Client.Core.dll" \
+    --library="wp8":"lib/WP8/Simple.OData.Client.Dynamic.dll" \
+    --sample="iOS Sample. NuGet Finder.":"samples/iOS/NuGetFinder.sln" \
+    --sample="Android Sample. NuGet Finder.":"samples/Android/NuGetFinder.sln" \
+    --sample="Windows Phone Sample. NuGet Finder.":"samples/WP8/NuGetFinder.sln"
