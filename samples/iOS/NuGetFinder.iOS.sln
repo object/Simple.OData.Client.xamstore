@@ -7,13 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetFinder.iOS", "NuGetFin
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NuGetFinder", "NuGetFinder\NuGetFinder.shproj", "{8B706B46-7518-4ED7-8220-94CC5E92F480}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F92572B7-87A0-4B3D-8C9B-7CF029E86DE9}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		NuGetFinder\NuGetFinder.projitems*{36745a52-0d1a-4eb6-a58a-f38baf7f0462}*SharedItemsImports = 4

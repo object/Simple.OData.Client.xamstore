@@ -7,13 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetFinder.Android", "NuGe
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NuGetFinder", "NuGetFinder\NuGetFinder.shproj", "{8B706B46-7518-4ED7-8220-94CC5E92F480}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{61734269-A3A5-497C-B62E-CEA9AFA31D07}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		NuGetFinder\NuGetFinder.projitems*{beb5045b-80cf-4be0-9e2b-1739a13a6f6d}*SharedItemsImports = 4
