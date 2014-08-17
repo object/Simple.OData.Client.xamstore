@@ -1,4 +1,4 @@
-mono .xpkg/xamarin-component.exe create-manually Simple.OData.Client-3.0.xam \
+mono .xpkg/xamarin-component.exe create-manually Simple.OData.Client-3.2.xam \
     --name="Simple OData Client" \
     --summary="Cross-platform library to communicate with OData services." \
     --publisher="Vagif Abilov" \
