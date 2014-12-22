@@ -1,0 +1,26 @@
+%YAML 1.2
+---
+summary: Cross-platform library to communicate with OData services.
+getting-started: GettingStarted.md
+details: Details.md
+license: License.md
+icons: 
+  - icons/Simple.OData.Client_128x128.png
+  - icons/Simple.OData.Client_512x512.png
+publisher: Vagif Abilov
+name: Simple OData Client
+id: Simple.OData.Client
+samples: 
+  iOS Sample: samples/iOS/NuGetFinder.iOS.sln
+  Android Sample: samples/Android/NuGetFinder.Android.sln
+  Windows Phone Sample: samples/WP8/NuGetFinder.WP8.sln
+publisher-url: https://github.com/object/Simple.OData.Client/wiki
+no_build: true
+is_shell: true
+libraries: 
+packages:
+  mac-unified: Simple.OData.Client, Version=4.0.6.1
+  mobile: Simple.OData.Client, Version=4.0.6.1
+  ios-unified: Simple.OData.Client, Version=4.0.6.1
+version: "4.0"
+...

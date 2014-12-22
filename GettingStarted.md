@@ -6,6 +6,11 @@ To use Simple.OData.Client in our C# code we need to ensure the project referenc
 
 <pre>using Simple.OData.Client;</pre>
 
+In case you are building an iOS application you will have to ensure it holds a reference to a respective OData adapter (V3 or V4), otherwise iOS linker may not include it in the binaries:
+
+<pre>// Specify V3 or V4 adapter (or both) depending on the protocol version of the OData service
+Simple.OData.Client.V3Adapter.Reference(); </pre>
+
 Next we create an instance of ODataClient by passing an OData service URL. In a NuGetFinder sample it's a URL of the NuGet OData feed:
 
 <pre>var client = new ODataClient("https://nuget.org/api/v1");</pre>

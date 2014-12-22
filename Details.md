@@ -6,7 +6,9 @@ Simple.OData.Client uses non-blocking asynchronous model and internally depends 
 
 ## Xamarin Store component and NuGet package
 
-Simple.OData.Client is packaged as both Xamarin Store component and a NuGet package (available from NuGet.org). Both library sources correspond to the same library. If the application is developed for several platforms, it can be more convenient to use Simple.OData.Client NuGet package that is optimized for binary reuse and targets multiple platforms with the same assembly. If the application targets a single platorm, choice of either Xamarin Store component or NuGet package is just a matter of a developer's preference. In case Simple.OData.Client is referenced from its Xamarin component, the application should also reference HttpClient DLLs (System.Net.Http, System.Net.Http.Primitives, System.Net.Http.Extensions).
+Simple.OData.Client is packaged as both Xamarin Store component and a NuGet package (available from NuGet.org). Both library sources correspond to the same library. If the application is developed for several platforms, it can be more convenient to use Simple.OData.Client NuGet package that is optimized for binary reuse and targets multiple platforms with the same assembly. If the application targets a single platorm, choice of either Xamarin Store component or NuGet package is just a matter of a developer's preference. In any case it's a NuGet package that is installed, Xamarin Store component is just a wrapper around the NuGet package.
+
+Simple.OData.Client NuGet package supports all OData protocols (versions 1-4), but the unified support comes at the cost of the package footprint. If you know the version of the OData service you are going to use, you can install from nuget.org the version that targets the specific OData protocol (Simple.OData.V3.Client or Simple.OData.V4.Client). In that case you shouldn't be using a Xamarin Store component but install the chosen package directly from nuget.org.
 
 ## Quick Usage
 

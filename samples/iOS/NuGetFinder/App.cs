@@ -11,6 +11,7 @@ namespace NuGetFinder
 	{
 		public static Page GetMainPage()
 		{
+            Simple.OData.Client.V3Adapter.Reference();
             return new NavigationPage(new SearchPage());
         }
 	}

@@ -1,4 +1,4 @@
-mono .xpkg/xamarin-component.exe create-manually Simple.OData.Client-3.2.xam \
+mono .xpkg/xamarin-component.exe create-manually Simple.OData.Client-4.0.xam \
     --name="Simple OData Client" \
     --summary="Cross-platform library to communicate with OData services." \
     --publisher="Vagif Abilov" \
@@ -8,12 +8,10 @@ mono .xpkg/xamarin-component.exe create-manually Simple.OData.Client-3.2.xam \
     --getting-started="GettingStarted.md" \
     --icon="icons/Simple.OData.Client_128x128.png" \
     --icon="icons/Simple.OData.Client_512x512.png" \
-    --library="ios":"lib/iOS/Simple.OData.Client.Core.dll" \
-    --library="ios":"lib/iOS/Simple.OData.Client.Dynamic.dll" \
-    --library="android":"lib/Android/Simple.OData.Client.Core.dll" \
-    --library="android":"lib/Android/Simple.OData.Client.Dynamic.dll" \
-    --library="wp8":"lib/WP8/Simple.OData.Client.Core.dll" \
-    --library="wp8":"lib/WP8/Simple.OData.Client.Dynamic.dll" \
+    --package="ios":"Simple.OData.Client, Version=4.0.6.1"
+    --package="android":"Simple.OData.Client, Version=4.0.6.1"
+    --package="wp8":"Simple.OData.Client, Version=4.0.6.1"
+    --is_shell \
     --sample="iOS Sample. NuGet Finder.":"samples/iOS/NuGetFinder.iOS.sln" \
     --sample="Android Sample. NuGet Finder.":"samples/Android/NuGetFinder.Android.sln" \
     --sample="Windows Phone Sample. NuGet Finder.":"samples/WP8/NuGetFinder.WP8.sln"
